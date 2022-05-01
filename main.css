@@ -1,0 +1,38 @@
+body{
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+h1 {
+    font-size: 35px;
+    text-shadow: 2px 2px 5px goldenrod;
+    color:crimson;
+  }
+ h3 {
+      font-size: 25px;
+      color:crimson;
+}
+
+.form-center{
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn{
+  padding: 8px 30px;
+  background:#9b59b6;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 30px;
+}
+.form-center{
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+}

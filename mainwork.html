@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet" type="text/css" />
+
+        <title>DCIT 101 ASSIGNMENT</title>
+
+    </head>
+
+
+    <body>
+
+        <h1 >WELCOME STUDENT,</h1>
+
+        <h3><b><em>
+            Kindly fill the form below with the requsite information needed to apprise the computer science department.
+             Thank You.</em></b></h3>
+
+
+                    <div class="form-center">
+                    <form>
+                        <fieldset>
+                            <legend>Personal Information:</legend>
+                        Fullname: &nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id = "fulname"  style="width: 500px; height: 25px;" required><br><br>
+
+                        Sex
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name ="male" value = "100">Male
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name ="female" value = "200">Female<br><br>
+            
+                        StudentID: &nbsp;&nbsp;&nbsp;<input type="number" style="width: 300px; height: 25px;" id="studentid" min="8" required><br><br>
+
+                        Password: &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" style="width: 300px; height: 25px;" id="password" required><br><br>
+
+                        Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="email" id = "email"  style="width: 300px; height: 25px;" required autocomplete="on"><br><br>
+
+                        Level
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type = "radio" name ="level" value = "100">100
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type = "radio" name ="level" value = "200">200<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type = "radio" name ="level" value = "300">300
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type = "radio" name ="level" value = "400">400<br><br>
+
+                        Social media:
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input list="Social Medias">
+                        <datalist id ="Social Medias">
+                            <option value="Facebook">
+                            <option value="Instagram"> 
+                            <option value="Snapchat">
+                            <option value="Telegram">
+                            <option value="Twitter">
+                        </datalist><br><br>
+
+                        <label for="username">Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="username" name="username" placeholder="@username"><br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="reset" class="btn">Reset</button>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button class="btn" 
+                               onclick="window.location.href = 'next.html';">
+                                                        Click to continue
+                        </button>
+                    </fieldset>
+                    </form>
+
+    </body>
+</html>
